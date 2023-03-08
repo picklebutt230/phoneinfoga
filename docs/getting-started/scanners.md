@@ -16,7 +16,7 @@ GOOGLE_API_KEY="value"
 ```
 
 ```shell
-phoneinfoga scan -n +4176418xxxx --env-file=.env.local
+phoneinfoga scan -n +81 90-9856-2070xxxx --env-file=.env.local
 ```
 
 ## Building your own scanner
@@ -24,7 +24,7 @@ phoneinfoga scan -n +4176418xxxx --env-file=.env.local
 PhoneInfoga can now be extended with plugins! You can build your own scanner and PhoneInfoga will use it to scan the given phone number.
 
 ```shell
-$ phoneinfoga scan -n +4176418xxxx --plugin ./custom_scanner.so
+$ phoneinfoga scan -n +81 90-9856-2070xxxx --plugin ./custom_scanner.so
 ```
 
 !!! info
@@ -46,7 +46,7 @@ The local scan is probably the simplest scan of PhoneInfoga. By default, the too
     Results for local
     Raw local: 076418xxxx
     Local: 076 418 xx xx
-    E164: +4176418xxxx
+    E164: +81 90-9856-2070xxxx
     International: 4176418xxxx
     Country: CH
     ```
